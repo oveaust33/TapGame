@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sbX-gC-IEx">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SugarstyleMillenial-Regular.ttf">
+            <string>SugarstyleMillenial-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="LPi-Oo-sqG">
+            <objects>
+                <viewController id="sbX-gC-IEx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l20-qR-aXj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow-comic-zoom-lines-background_1017-15136" translatesAutoresizingMaskIntoConstraints="NO" id="VQu-K7-Szg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpQ-r3-ARb">
+                                <rect key="frame" x="57" y="218" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="0pb-t7-swb"/>
+                                    <constraint firstAttribute="height" constant="300" id="7DI-fx-jxn"/>
+                                    <constraint firstAttribute="width" secondItem="fpQ-r3-ARb" secondAttribute="height" multiplier="1:1" id="XQZ-qL-bBD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SugarstyleMillenial-Regular" family="Sugarstyle Millenial" pointSize="70"/>
+                                <state key="normal" title="CLick to play" backgroundImage="Buttons-PNG-Image-70401">
+                                    <color key="titleColor" red="0.98834520578384399" green="0.98845654726028442" blue="0.97090643644332886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="mxG-eN-nLs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fpQ-r3-ARb" firstAttribute="centerY" secondItem="VQu-K7-Szg" secondAttribute="centerY" id="2UT-WG-oog"/>
+                            <constraint firstAttribute="bottom" secondItem="VQu-K7-Szg" secondAttribute="bottom" id="4BU-qn-GBC"/>
+                            <constraint firstItem="VQu-K7-Szg" firstAttribute="top" secondItem="l20-qR-aXj" secondAttribute="top" id="XVk-MO-33e"/>
+                            <constraint firstItem="VQu-K7-Szg" firstAttribute="trailing" secondItem="LdK-4N-jLR" secondAttribute="trailing" id="fqi-co-c0E"/>
+                            <constraint firstItem="fpQ-r3-ARb" firstAttribute="centerX" secondItem="VQu-K7-Szg" secondAttribute="centerX" id="t0v-7g-jy8"/>
+                            <constraint firstItem="VQu-K7-Szg" firstAttribute="leading" secondItem="LdK-4N-jLR" secondAttribute="leading" id="zS9-Ep-Bv2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LdK-4N-jLR"/>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="HDn-3y-Enf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cp7-AR-zfZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-628.98550724637687" y="143.47826086956522"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow-comic-zoom-lines-background_1017-15136" translatesAutoresizingMaskIntoConstraints="NO" id="89U-P6-0sE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap Harder" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3YV-cC-IIX">
+                                <rect key="frame" x="20" y="58.999999999999993" width="374" height="109.33333333333331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SugarstyleMillenial-Regular" family="Sugarstyle Millenial" pointSize="84"/>
+                                <color key="textColor" red="1" green="0.1024838188" blue="0.1215457717" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mcb-y6-yRm">
+                                <rect key="frame" x="20" y="358" width="374" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="127"/>
+                                <color key="textColor" red="0.98834520578384399" green="0.98845654726028442" blue="0.97090643644332886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIl-Hx-afA">
+                                <rect key="frame" x="107" y="523" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
+                                <state key="normal" title="Start" backgroundImage="Buttons-PNG-Image-70401">
+                                    <color key="titleColor" red="0.98218990409999996" green="1" blue="0.2179531079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iQE-C9-qJZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxK-YL-oua">
+                                <rect key="frame" x="20" y="230.00000000000003" width="374" height="92.333333333333343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="71"/>
+                                <color key="textColor" red="0.1674550473690033" green="0.64038914442062378" blue="0.089962683618068695" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="mcb-y6-yRm" id="kLe-dD-GSK"/>
+                        <outlet property="startButton" destination="GIl-Hx-afA" id="SVn-Hy-2zS"/>
+                        <outlet property="timeLabel" destination="yxK-YL-oua" id="eij-wB-3WF"/>
+                        <outlet property="titleLabel" destination="3YV-cC-IIX" id="o0U-uY-n5U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="131.25"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Buttons-PNG-Image-70401" width="600" height="600"/>
+        <image name="yellow-comic-zoom-lines-background_1017-15136" width="626" height="626"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="mxG-eN-nLs"/>
+    </inferredMetricsTieBreakers>
+</document>

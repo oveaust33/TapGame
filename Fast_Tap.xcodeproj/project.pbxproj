@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCCBFCA6214BB71D00891B42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBFCA5214BB71D00891B42 /* AppDelegate.m */; };
+		BCCBFCA9214BB71D00891B42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBFCA8214BB71D00891B42 /* ViewController.m */; };
+		BCCBFCAC214BB71D00891B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCBFCAA214BB71D00891B42 /* Main.storyboard */; };
+		BCCBFCAE214BB71F00891B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCBFCAD214BB71F00891B42 /* Assets.xcassets */; };
+		BCCBFCB1214BB71F00891B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCBFCAF214BB71F00891B42 /* LaunchScreen.storyboard */; };
+		BCCBFCB4214BB71F00891B42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBFCB3214BB71F00891B42 /* main.m */; };
+		BCCBFCBE214BB71F00891B42 /* Fast_TapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBFCBD214BB71F00891B42 /* Fast_TapTests.m */; };
+		BCCBFCC9214BB71F00891B42 /* Fast_TapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBFCC8214BB71F00891B42 /* Fast_TapUITests.m */; };
+		BCCBFCD7214BB78D00891B42 /* SugarstyleMillenial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCCBFCD6214BB78D00891B42 /* SugarstyleMillenial-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCCBFCBA214BB71F00891B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCBFC99214BB71D00891B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCBFCA0214BB71D00891B42;
+			remoteInfo = Fast_Tap;
+		};
+		BCCBFCC5214BB71F00891B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCBFC99214BB71D00891B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCBFCA0214BB71D00891B42;
+			remoteInfo = Fast_Tap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCCBFCA1214BB71D00891B42 /* Fast_Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fast_Tap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCBFCA4214BB71D00891B42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCCBFCA5214BB71D00891B42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCCBFCA7214BB71D00891B42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCCBFCA8214BB71D00891B42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCCBFCAB214BB71D00891B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCCBFCAD214BB71F00891B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCCBFCB0214BB71F00891B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCCBFCB2214BB71F00891B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCBFCB3214BB71F00891B42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCCBFCB9214BB71F00891B42 /* Fast_TapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fast_TapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCBFCBD214BB71F00891B42 /* Fast_TapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fast_TapTests.m; sourceTree = "<group>"; };
+		BCCBFCBF214BB71F00891B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCBFCC4214BB71F00891B42 /* Fast_TapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fast_TapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCBFCC8214BB71F00891B42 /* Fast_TapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fast_TapUITests.m; sourceTree = "<group>"; };
+		BCCBFCCA214BB71F00891B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCBFCD6214BB78D00891B42 /* SugarstyleMillenial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SugarstyleMillenial-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCCBFC9E214BB71D00891B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCBFCB6214BB71F00891B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCBFCC1214BB71F00891B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCCBFC98214BB71D00891B42 = {
+			isa = PBXGroup;
+			children = (
+				BCCBFCA3214BB71D00891B42 /* Fast_Tap */,
+				BCCBFCBC214BB71F00891B42 /* Fast_TapTests */,
+				BCCBFCC7214BB71F00891B42 /* Fast_TapUITests */,
+				BCCBFCA2214BB71D00891B42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCCBFCA2214BB71D00891B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCCBFCA1214BB71D00891B42 /* Fast_Tap.app */,
+				BCCBFCB9214BB71F00891B42 /* Fast_TapTests.xctest */,
+				BCCBFCC4214BB71F00891B42 /* Fast_TapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCCBFCA3214BB71D00891B42 /* Fast_Tap */ = {
+			isa = PBXGroup;
+			children = (
+				BCCBFCA4214BB71D00891B42 /* AppDelegate.h */,
+				BCCBFCA5214BB71D00891B42 /* AppDelegate.m */,
+				BCCBFCA7214BB71D00891B42 /* ViewController.h */,
+				BCCBFCA8214BB71D00891B42 /* ViewController.m */,
+				BCCBFCAA214BB71D00891B42 /* Main.storyboard */,
+				BCCBFCAD214BB71F00891B42 /* Assets.xcassets */,
+				BCCBFCAF214BB71F00891B42 /* LaunchScreen.storyboard */,
+				BCCBFCD6214BB78D00891B42 /* SugarstyleMillenial-Regular.ttf */,
+				BCCBFCB2214BB71F00891B42 /* Info.plist */,
+				BCCBFCB3214BB71F00891B42 /* main.m */,
+			);
+			path = Fast_Tap;
+			sourceTree = "<group>";
+		};
+		BCCBFCBC214BB71F00891B42 /* Fast_TapTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCBFCBD214BB71F00891B42 /* Fast_TapTests.m */,
+				BCCBFCBF214BB71F00891B42 /* Info.plist */,
+			);
+			path = Fast_TapTests;
+			sourceTree = "<group>";
+		};
+		BCCBFCC7214BB71F00891B42 /* Fast_TapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCBFCC8214BB71F00891B42 /* Fast_TapUITests.m */,
+				BCCBFCCA214BB71F00891B42 /* Info.plist */,
+			);
+			path = Fast_TapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCCBFCA0214BB71D00891B42 /* Fast_Tap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCBFCCD214BB71F00891B42 /* Build configuration list for PBXNativeTarget "Fast_Tap" */;
+			buildPhases = (
+				BCCBFC9D214BB71D00891B42 /* Sources */,
+				BCCBFC9E214BB71D00891B42 /* Frameworks */,
+				BCCBFC9F214BB71D00891B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fast_Tap;
+			productName = Fast_Tap;
+			productReference = BCCBFCA1214BB71D00891B42 /* Fast_Tap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCCBFCB8214BB71F00891B42 /* Fast_TapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCBFCD0214BB71F00891B42 /* Build configuration list for PBXNativeTarget "Fast_TapTests" */;
+			buildPhases = (
+				BCCBFCB5214BB71F00891B42 /* Sources */,
+				BCCBFCB6214BB71F00891B42 /* Frameworks */,
+				BCCBFCB7214BB71F00891B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCCBFCBB214BB71F00891B42 /* PBXTargetDependency */,
+			);
+			name = Fast_TapTests;
+			productName = Fast_TapTests;
+			productReference = BCCBFCB9214BB71F00891B42 /* Fast_TapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCCBFCC3214BB71F00891B42 /* Fast_TapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCBFCD3214BB71F00891B42 /* Build configuration list for PBXNativeTarget "Fast_TapUITests" */;
+			buildPhases = (
+				BCCBFCC0214BB71F00891B42 /* Sources */,
+				BCCBFCC1214BB71F00891B42 /* Frameworks */,
+				BCCBFCC2214BB71F00891B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCCBFCC6214BB71F00891B42 /* PBXTargetDependency */,
+			);
+			name = Fast_TapUITests;
+			productName = Fast_TapUITests;
+			productReference = BCCBFCC4214BB71F00891B42 /* Fast_TapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCCBFC99214BB71D00891B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ove;
+				TargetAttributes = {
+					BCCBFCA0214BB71D00891B42 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BCCBFCB8214BB71F00891B42 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BCCBFCA0214BB71D00891B42;
+					};
+					BCCBFCC3214BB71F00891B42 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BCCBFCA0214BB71D00891B42;
+					};
+				};
+			};
+			buildConfigurationList = BCCBFC9C214BB71D00891B42 /* Build configuration list for PBXProject "Fast_Tap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCCBFC98214BB71D00891B42;
+			productRefGroup = BCCBFCA2214BB71D00891B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCCBFCA0214BB71D00891B42 /* Fast_Tap */,
+				BCCBFCB8214BB71F00891B42 /* Fast_TapTests */,
+				BCCBFCC3214BB71F00891B42 /* Fast_TapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCCBFC9F214BB71D00891B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCBFCD7214BB78D00891B42 /* SugarstyleMillenial-Regular.ttf in Resources */,
+				BCCBFCB1214BB71F00891B42 /* LaunchScreen.storyboard in Resources */,
+				BCCBFCAE214BB71F00891B42 /* Assets.xcassets in Resources */,
+				BCCBFCAC214BB71D00891B42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCBFCB7214BB71F00891B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCBFCC2214BB71F00891B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCCBFC9D214BB71D00891B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCBFCA9214BB71D00891B42 /* ViewController.m in Sources */,
+				BCCBFCB4214BB71F00891B42 /* main.m in Sources */,
+				BCCBFCA6214BB71D00891B42 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCBFCB5214BB71F00891B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCBFCBE214BB71F00891B42 /* Fast_TapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCBFCC0214BB71F00891B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCBFCC9214BB71F00891B42 /* Fast_TapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCCBFCBB214BB71F00891B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCCBFCA0214BB71D00891B42 /* Fast_Tap */;
+			targetProxy = BCCBFCBA214BB71F00891B42 /* PBXContainerItemProxy */;
+		};
+		BCCBFCC6214BB71F00891B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCCBFCA0214BB71D00891B42 /* Fast_Tap */;
+			targetProxy = BCCBFCC5214BB71F00891B42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCCBFCAA214BB71D00891B42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCBFCAB214BB71D00891B42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCCBFCAF214BB71F00891B42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCBFCB0214BB71F00891B42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCCBFCCB214BB71F00891B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCCBFCCC214BB71F00891B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCCBFCCE214BB71F00891B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fast_Tap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Fast-Tap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCCBFCCF214BB71F00891B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fast_Tap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Fast-Tap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCCBFCD1214BB71F00891B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fast_TapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Fast-TapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fast_Tap.app/Fast_Tap";
+			};
+			name = Debug;
+		};
+		BCCBFCD2214BB71F00891B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fast_TapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Fast-TapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fast_Tap.app/Fast_Tap";
+			};
+			name = Release;
+		};
+		BCCBFCD4214BB71F00891B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fast_TapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Fast-TapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fast_Tap;
+			};
+			name = Debug;
+		};
+		BCCBFCD5214BB71F00891B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fast_TapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Fast-TapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fast_Tap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCCBFC9C214BB71D00891B42 /* Build configuration list for PBXProject "Fast_Tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCBFCCB214BB71F00891B42 /* Debug */,
+				BCCBFCCC214BB71F00891B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCBFCCD214BB71F00891B42 /* Build configuration list for PBXNativeTarget "Fast_Tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCBFCCE214BB71F00891B42 /* Debug */,
+				BCCBFCCF214BB71F00891B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCBFCD0214BB71F00891B42 /* Build configuration list for PBXNativeTarget "Fast_TapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCBFCD1214BB71F00891B42 /* Debug */,
+				BCCBFCD2214BB71F00891B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCBFCD3214BB71F00891B42 /* Build configuration list for PBXNativeTarget "Fast_TapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCBFCD4214BB71F00891B42 /* Debug */,
+				BCCBFCD5214BB71F00891B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCCBFC99214BB71D00891B42 /* Project object */;
+}
